@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document created by Leah Abounader, Spring 2019*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.8em;
+	color: #FFFFFF;
+	background-color: #DDDFDE;
+	padding: 20px 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .2em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	background-color: #69011C;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #36101B;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #69011C;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #6D7375;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #36101B 2px;
+}
+td {
+	padding: 8px;
+	border: solid #36101B 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 8px;
+	border: solid #999933 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #36101B 2px;
+}
+
+img {
+	border: solid #000000 2px;
+
+}
+
+iframe {
+	border: solid #6D7375 2px;
+	padding: 5px;
+	margin: 10px;
+}
